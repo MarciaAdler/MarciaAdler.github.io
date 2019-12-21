@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/embossed-diamond.png");
+    
+}
+
+.navbar {
+    padding: 0 15%;
+    
+}
+
+h1 {
+    background:  #4aaaa5;
+    width: 200px;
+    height: 65px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.navbar-nav {
+    padding: 0 20% 0 60%;  
+    width: 400px; 
+    white-space: nowrap;
+    color: white;
+}
+
