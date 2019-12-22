@@ -8,39 +8,94 @@ body{
 }
 
 .wrapper {
-    /* Box-model */
-    width: 1024px;
-    
+    width: 100%;
 }
+    
+
 
 .navbar {
-    padding: 0 15%;
-    
+    padding: 0;
+    width: 100%;
 }
 
 header {
 height: 75px;
+width: 100%;
 
 }
-h1 {
+
+#name {
     background:  #4aaaa5;
     width: 200px;
     height: 70px;
     text-align: center;
     vertical-align: center;
     margin: auto;
+    margin: 0 50px;
 }
 
 .navbar-light .navbar-brand {
     color: #fff;
 }
 .navbar-nav {
-    padding: 0 20px;
+    padding: 0 0 0 30%;
     margin: auto;
     text-align: center;
     width: 400px; 
     white-space: nowrap;
+    
 }
+
+.container {
+    background-color: #fff;
+    margin: 20px 50px;
+    width: 960px;
+    border-color: #dddddd;
+    color: #777777;
+    padding: 20px 20px;
+}
+
+.title {
+    color: #4aaaa5;
+    padding: 20px 20px;
+}
+
+hr {
+    
+    height: 1px;
+    border: 10px;
+    border-top: 1px solid #ccc;
+    margin: 1em 1.3em;
+    padding: 0;
+}
+
+.main-container {
+    background: #ffffff;
+    width: 960px;
+    border-color: #dddddd;
+    color: #777777;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px 0 20px;
+}
+
+#me {
+    width: 150px;
+    height: 180px;
+    float: left;
+    margin: 0 20px;
+}
+
+footer {
+    background: #666666;
+    width: 100%;
+    height: 65px;
+    bottom: 0;
+    position: relative;
+    border-top: 8px solid #4aaaa5;
+}
+
 
 @media screen and (max-width: 993px) {
     .wrapper {
@@ -61,25 +116,41 @@ h1 {
    }
    
    header{
-    width: 100%;
+        width: 100%;
     }
 
-    h1 {
-    width: 100%;
-    
+    .navbar {
+        width: 100%;
+        padding: 0;
     }
-
     .navbar-nav {
-    flex-direction: row;
-    margin: auto;
-    text-align: center;
-    padding: 0 20px;  
-    width: 100%;
+        flex-direction: row;
+        margin: auto;
+        text-align: center;
+        padding: 0 20px;  
+        width: 70%;
    }
 
    .nav-item {
        margin: auto;    
        width: 100%; 
    }
+
+   .container {
+       margin: 60px 25px;
+       padding: 10px;
+   }
+
+   #name {
+        width: 100%;
+        margin: 0;
+        padding: 0; 
+    }
+
+    #me {
+        float: none;
+        margin: 20px 35%;
+    }
 }
+
 
