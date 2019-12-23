@@ -8,7 +8,7 @@ body{
 }
 
 .wrapper {
-    width: 100%;
+    width: 1024px;
 }
     
 
@@ -49,8 +49,8 @@ header {
 
 .container {
     background-color: #fff;
-    width: 960px;
-    margin: 50px 20px 50px 40px;
+    width: 700px;
+    margin: 50px 150px 50px 40px;
     border-color: #dddddd;
     color: #777777;
     padding: 20px 20px;
@@ -58,7 +58,7 @@ header {
 
 .title {
     color: #4aaaa5;
-    padding: 20px 20px;
+    padding: 0px 20px 10px 20px;
 }
 
 hr {
@@ -76,7 +76,7 @@ hr {
     border-color: #dddddd;
     color: #777777;
     display: block;
-    margin: auto;
+    margin: 20px 0;
     overflow: hidden;
     padding: 0 20px;
 }
@@ -88,15 +88,22 @@ hr {
     margin: 0 20px;
 }
 
+.pic-container {
+    margin: 10px 0;
+}
+
 .card {
-    margin: 20px 10px;  
+    margin: auto 0 auto 0;
+    
 }
 .card-body {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
     font-size: 25px;
+    padding: 1rem;
 }
+
 
 #widget{
     height: 178px;
@@ -115,7 +122,7 @@ footer {
 }
 
 
-@media screen and (max-width: 993px) {
+/*@media screen and (max-width: 993px) {
     .wrapper {
         width: 993px;
     }
@@ -166,11 +173,11 @@ footer {
         margin: auto;    
         width: 100%; 
     }
-
+    
     .card {
-        margin: 20px 5px; 
-        width: 80%;
-        margin: 20px 100px;
+        margin: auto;
+        padding: 0;
+        width: 10rem;   
     }   
 
     .card-body {
@@ -210,8 +217,13 @@ footer {
    }
 
    .container {
-       margin: 60px 25px;
+       margin: 60px auto;
        padding: 10px;
+       width: 500px;
+   }
+
+   .main-container {
+       margin: auto 0 auto 60px;
    }
 
    #name {
@@ -227,8 +239,13 @@ footer {
         margin: 20px 35%;
     }
 
+    .card {
+        width: 80%;
+        margin: auto;
+        padding: 0;
+        width: 1rem;   
+    }   
     
-    
-}
+}*/
 
 
