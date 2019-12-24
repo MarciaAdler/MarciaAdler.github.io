@@ -8,6 +8,7 @@ body{
 
 header {
     margin-bottom: 20px;
+    width: 100%;
 }
 
 #name {
@@ -15,12 +16,13 @@ header {
     height: 75%;
     text-align: center; 
     padding-bottom: 20px;
+    color: #ffffff;
     
 }
 
 .navbar {
     padding: 0;
-   
+    width: 100%;
 }
 
 .navbar-nav {
@@ -33,11 +35,11 @@ header {
 }
 .container {
     background-color: #ffffff;
-    width: 90%;
-    margin: 50px 100px 50px 20px;
+    width: 85%;
+    margin: 50px 100px 50px 40px;
     border-color: #dddddd;
     color: #777777;
-    padding: 20px 20px;
+    padding: 20px 10px;
 }
 
 hr {
@@ -48,9 +50,10 @@ hr {
     padding-left: 0;
 }
 
-#me {
-    margin: 0 100px;
+.title {
+    padding: 0 0 0 20px;
 }
+
 
 .pic-container {
     margin: 10px;   
@@ -68,6 +71,11 @@ hr {
     color: #fff;
     text-align: center;
     font-size: 25px;    
+}
+
+.btn {
+    background-color: #4aaaa5;
+    border: none;
 }
 footer {
     background: #666666;
