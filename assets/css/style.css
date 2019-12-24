@@ -6,6 +6,12 @@ body{
     background-image: url("../images/embossed-diamond.png");
 }
 
+.navbar {
+    padding: 0;
+    width: 100%;
+}
+
+
 header {
     margin-bottom: 20px;
     width: 100%;
@@ -16,14 +22,9 @@ header {
     height: 75%;
     text-align: center; 
     padding-bottom: 20px;
-    color: #ffffff;
-    
+    color: #fff;
 }
 
-.navbar {
-    padding: 0;
-    width: 100%;
-}
 
 .navbar-nav {
     left: 10%;
@@ -33,6 +34,7 @@ header {
 .nav-item {
     margin: 0 20px 0 20px;
 }
+
 .container {
     background-color: #ffffff;
     width: 85%;
@@ -77,6 +79,7 @@ hr {
     background-color: #4aaaa5;
     border: none;
 }
+
 footer {
     background: #666666;
     width: 100%;
