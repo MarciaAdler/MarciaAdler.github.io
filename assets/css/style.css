@@ -9,26 +9,32 @@ body{
 .navbar {
     padding: 0;
     width: 100%;
+    padding-right:0;
+    margin-right: 0;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 
-header {
-    margin-bottom: 20px;
-    width: 100%;
-}
 
 #name {
     background-color:#4aaaa5;
     height: 75%;
     text-align: center; 
     padding-bottom: 20px;
-    color: #fff;
+    padding-top: 20px;
+    
 }
 
 
 .navbar-nav {
     left: 10%;
     white-space: nowrap;
+}
+
+.navbar-light .navbar-brand {
+    color:#fff;
+    font-size: 2rem;
 }
 
 .nav-item {
@@ -67,12 +73,23 @@ hr {
 
 .card {
     margin: 0 20px;
+    
 }
 .card-body {
-    background-color: #4aaaa5; 
+    
     color: #fff;
     text-align: center;
-    font-size: 25px;    
+    font-size: 25px;
+    padding: 0;
+    
+}
+
+.card-img-overlay {
+    background-color: #4aaaa5;
+    height: 25%;
+    margin: auto;
+    padding-top: 5px;
+    top: 50%;
 }
 
 .btn {
