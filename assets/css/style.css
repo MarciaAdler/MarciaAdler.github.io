@@ -21,8 +21,8 @@ body{
     background-color:#4aaaa5;
     height: 75%;
     text-align: center; 
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     
 }
 
@@ -75,6 +75,7 @@ hr {
     margin: 0 20px;
     
 }
+
 .card-body {
     
     color: #fff;
@@ -88,7 +89,7 @@ hr {
     background-color: #4aaaa5;
     height: 25%;
     margin: auto;
-    padding-top: 5px;
+    padding-top: 2px;
     top: 50%;
 }
 
