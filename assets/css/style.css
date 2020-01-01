@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-image: url("../images/embossed-diamond.png");
+    
 }
+
+
 
 .navbar {
     padding: 0;
@@ -19,10 +23,10 @@ body{
 
 #name {
     background-color:#4aaaa5;
-    height: 75%;
     text-align: center; 
     padding-bottom: 10px;
     padding-top: 10px;
+    font-size: 25px;
     
 }
 
@@ -30,15 +34,19 @@ body{
 .navbar-nav {
     left: 10%;
     white-space: nowrap;
+    position: static;
+    
 }
 
 .navbar-light .navbar-brand {
     color:#fff;
     font-size: 2rem;
+    
 }
 
 .nav-item {
-    margin: 0 20px 0 20px;
+    margin: 0 20px 0 40px;
+
 }
 
 .container {
