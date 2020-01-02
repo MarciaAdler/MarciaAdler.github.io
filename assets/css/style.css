@@ -1,5 +1,4 @@
 html {
-    overflow: hidden;
     width: 100%;
 }
 * {
@@ -40,8 +39,7 @@ body{
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        padding-right: 0;
-        padding-left: 0;
+        
     }
     #name_bar {
         padding-left:0;
@@ -102,7 +100,7 @@ hr {
 }
 
 .card {
-    margin: 0 20px;
+    margin: 0 10px 0 20px;
     
 }
 
