@@ -1,13 +1,14 @@
 html {
     width: 100%;
+
 }
 * {
     box-sizing: border-box;
 }
 
 
-body{
-    background-image: url("../images/embossed-diamond.png");
+.wrapper{
+    background-image: url("https://previews.123rf.com/images/luckypic/luckypic1206/luckypic120600026/13920301-white-brick-wall-for-a-background.jpg");
     
 }
 
@@ -23,7 +24,7 @@ body{
 
 
 #name {
-    background-color:#4aaaa5;
+    color: rgba(0,0,0,.5);
     text-align: center; 
     padding-bottom: 10px;
     padding-top: 10px;
@@ -58,24 +59,28 @@ body{
     color:#fff;
     font-size: 2rem;
     
+    
 }
 
 .navbar-light .navbar-brand:hover {
     color: #fff;
 }
-
+.bg-light {
+    background-color: rgba(255,255,255,0.8)!important;
+}
 .nav-item {
     margin: 0 20px 0 40px;
 
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.80);
     width: 85%;
     margin: 50px 100px 50px 40px;
     border-color: #dddddd;
     color: #777777;
     padding: 20px 20px;
+    
 }
 
 hr {
@@ -107,7 +112,7 @@ hr {
 }
 
 .card {
-    margin: 0 10px 0 20px;
+    margin: 0;
     border: 0;
     
 }
@@ -123,24 +128,34 @@ hr {
 
 .card-img-overlay {
     background-color: #4aaaa5;
-    height: 25%;
+    height: 20%;
     margin: auto;
-    padding-top: 2px;
-    top: 50%;
+    padding: 2px;
+    position: relative;
 }
 
+.app-info {
+    left: 10%;
+    top: 25px;
+}
+
+@media (max-width:768px){
+    .app-info {
+        top: 0px;
+    }
+}
 .btn {
     background-color: #4aaaa5;
     border: none;
 }
 
 footer {
-    background: #666666;
+    background: rgba(255,255,255,1);
     width: 100%;
     height: 65px;
     bottom: 0;
-    position: relative;
-    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    border-top: 8px solid darkgrey;
     text-align: center;
     padding: 15px 0;
     clear: both;
