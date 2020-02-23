@@ -15,7 +15,7 @@ html {
 }
 
 #index-wrapper {
-  height: 1200px;
+  height: 100%;
 }
 .navbar {
   padding: 0;
@@ -52,7 +52,9 @@ html {
   left: 20%;
   white-space: nowrap;
   position: static;
+  padding-right: 0;
   justify-content: center;
+  padding-left: 20px;
 }
 
 .navbar-light .navbar-brand {
@@ -104,11 +106,6 @@ hr {
 
 #widget {
   height: 179px;
-}
-
-.card {
-  margin: 0;
-  border: 0;
 }
 
 .card-body {
